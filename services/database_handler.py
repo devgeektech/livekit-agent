@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:8000"
+BASE_URL = "https://pocbackend.geektechies.com"
 
 def fetch_session_data(uuid: str):
     url = f"{BASE_URL}/sessions/{uuid}/get_resume_and_jd"

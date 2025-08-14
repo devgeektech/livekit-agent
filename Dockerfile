@@ -1,12 +1,10 @@
-  GNU nano 7.2                                                       Dockerfile                                                                 
-# Base image
 FROM python:3.11-slim
 
 # Keep everything as root
 USER root
 
 # Set working directory
-WORKDIR /var/www/html/just-placed-backend
+WORKDIR /var/www/html/livekit-agent
 
 # Install system dependencies
 RUN apt-get update && \
