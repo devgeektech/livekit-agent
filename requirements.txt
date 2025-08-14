@@ -1,0 +1,14 @@
+livekit==1.0.12
+livekit_api==1.0.5
+livekit-agents==1.2.3
+livekit-plugins-openai==1.2.3
+livekit-plugins-silero==1.2.3
+livekit-plugins-turn-detector==1.2.3
+livekit_blingfire==1.0.0
+livekit_plugins_noise_cancellation==0.2.5
+livekit_protocol==1.0.4
+protobuf==6.31.1
+python-dotenv==1.1.1
+frontend==0.0.3
+tools==1.0.2
+PyMuPDF==1.26.3
